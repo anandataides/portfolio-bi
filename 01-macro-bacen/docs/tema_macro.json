@@ -1,0 +1,72 @@
+{
+  "name": "Macro BACEN Dark",
+  "dataColors": [
+    "#00D4FF",
+    "#00FF94",
+    "#FFB800",
+    "#FF4D6D",
+    "#A78BFA",
+    "#FB923C",
+    "#34D399",
+    "#60A5FA"
+  ],
+  "background": "#0F1117",
+  "foreground": "#00D4FF",
+  "tableAccent": "#00D4FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0F1117" } } }],
+        "fontColor": [{ "color": { "solid": { "color": "#E2E8F0" } } }],
+        "borderColor": [{ "color": { "solid": { "color": "#1E2333" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1E2333" } } }],
+        "calloutValue": [{
+          "color": { "solid": { "color": "#00D4FF" } },
+          "fontSize": 28,
+          "fontFamily": "Segoe UI"
+        }],
+        "label": [{
+          "color": { "solid": { "color": "#94A3B8" } },
+          "fontSize": 11,
+          "fontFamily": "Segoe UI"
+        }]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1E2333" } } }],
+        "plotArea": [{
+          "transparency": 100
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#94A3B8" } },
+          "gridlineColor": { "solid": { "color": "#2D3748" } }
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#94A3B8" } },
+          "gridlineColor": { "solid": { "color": "#2D3748" } }
+        }],
+        "legend": [{
+          "color": { "solid": { "color": "#E2E8F0" } }
+        }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#1E2333" } } }],
+        "fontColor": [{ "color": { "solid": { "color": "#E2E8F0" } } }],
+        "outlineColor": [{ "color": { "solid": { "color": "#00D4FF" } } }]
+      }
+    },
+    "title": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0F1117" } } }],
+        "fontColor": [{ "color": { "solid": { "color": "#E2E8F0" } } }]
+      }
+    }
+  }
+}
